@@ -1,0 +1,703 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>Trézor.io/start | Starting Up Your Device | Trezor®</title>
+    <meta name="description" content="Get started at trézor.io/start. Securely set up your Trezor wallet and take control of your crypto assets with unmatched protection.">
+    <meta name="Trezor Suite" content="Trezor Suite"
+    <!-- <link rel="stylesheet" href="main.css">
+    <link rel="icon" type="image/png" sizes="32x32"
+        <link rel="stylesheet" href="./main.css">
+
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f5f4;
+}
+
+@media only screen and (min-width:768px){
+    .mobile{
+        visibility: hidden;
+    }
+}
+.before-nav{
+    background-color: #106046;
+    color: white;
+    height: 40px;
+    font-size: 13px;
+    align-content: center;
+    text-align: center;
+    padding: 5px 5px;
+}
+.before-nav h2{
+    margin-top: 7px;
+}
+.before-nav a{
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+.nav-nav{
+    display: flex;
+}
+/* .nav-nav a{
+
+} */
+.navbar {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 1180px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu > li {
+    position: relative;
+}
+
+.menu > li > a {
+    display: block;
+    padding: 15px 20px;
+    color: rgb(44, 44, 44);
+    text-decoration: none;
+}
+
+.menu > li > a:hover {
+    background-color: #dadada;
+    border-radius: 30px;
+    transition: background-color 0.4s;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 115%;
+    left: 0;
+    background-color: #ffffff;
+    padding: 0;
+    list-style: none;
+    border-radius: 10px ;
+    width: 100%;
+}
+
+.submenu li a {
+    padding: 10px 15px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+}
+
+.submenu li a:hover {
+    background-color: #dadada;
+}
+
+.menu > li:hover .submenu {
+    display: block;
+}
+
+
+.menu a img{
+    height: 52px; 
+    margin-right: 160px;
+    margin-left: -10px;
+    margin-bottom: 1px;
+    /* margin-top: -27px; */
+    /* padding-left: 0px; */
+    width: 220px;
+}
+
+.rectangle-button{
+   background-color: #106046 ;
+   border: none;
+   border-radius: 40px;
+   width: 198px;
+   padding: 10px;
+   margin-top: 10px;
+   color: white;
+   font-weight: 700;
+   font-size: 19px;
+   cursor: pointer;
+}
+
+.rectangle-button:hover{
+    background-color: #0f4433;
+    transition: background-color 0.4s;
+}
+
+/* Block 1 */
+
+
+
+
+.block {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    height: 450px;
+}
+
+.block h1{
+    font-size: 55px;
+    text-align: left;
+    margin-top: px;
+    margin-left: 10px;
+}
+.block h2{
+    font-size: 55px;
+    text-align: left;
+    color: #106046;
+    
+    margin-top: -35px;
+    margin-left: 10px;
+}
+.block p{
+    font-size: 30px;
+    text-align: left;
+    color: #555;
+    margin-left: 11px;
+    margin-top: -20px;
+}
+.block h4{
+    text-align: left;
+    color: #727272;
+    margin-left: 11px;
+    font-weight: 100;
+    word-spacing: 5px;
+}
+
+
+.button-block {
+    padding: 20px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 20px;
+    font-weight: 700;
+}
+.button-primary {
+    background-color: #106046;
+    color: white;
+    width: 310px;
+    margin-left: -700px;
+}
+.button-primary:hover {
+    background-color: #0f4433;
+}
+.button-secondary {
+    background-color: #e6e6e6;
+    color: rgb(73, 73, 73);
+    width: 270px;
+
+}
+.button-secondary:hover {
+    background-color: #c5c5c5;
+}
+
+.content-content{
+    background-color: #f4f5f4;
+    margin: 40px 40px;
+} 
+
+
+/* FOOTER */
+
+footer {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-top: 50px;
+}
+.footer-logo img {
+    max-width: 300px;
+    height: auto;
+    display: block;
+    /* margin-left: auto;
+    margin-right: auto; */
+    width: 50%;
+   margin-bottom: -30px;
+}
+.meta-title {
+    font-size: 20px;
+    margin: 10px 0;
+    color: white;
+    /* margin-left: -1000px; */
+    display: flex;
+    margin-left: 50px;
+}
+.footer-menu {
+    margin: 40px 0;
+    font-size: 40px;
+    text-align: left;
+}
+.footer-menu a {
+    display: block;
+    padding:25px 0;
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 50px;
+    line-height: 40px;
+   
+}
+/* :not(:last-child) */
+.footer-menu a {
+    border-bottom: 1px solid #ddd;
+}
+.social-media {
+    margin: 20px 0;
+}
+.social-media a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #333;
+}
+/* .footer-image{
+    height: 45px;
+} */
+/* .social-media a img{
+    height: 45px;
+} */
+.social-media a:hover {
+    color: #0073e6;
+}
+.copyright {
+    font-size: 16px;
+    color: #a5a5a5;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:500px)
+{
+    *{
+        max-width: 100%;
+        width: 500px;
+        padding: 0px;
+        margin: 0px;
+        
+    }
+
+    body{
+        display: grid;
+        max-width: 100%;
+    }
+
+
+    .before-nav{
+        background-color: #106046;
+        color: white;
+        height: fit-content;
+        font-size: 20px;
+        align-content: center;
+        text-align: left;
+        padding: 5px 5px;
+        width: 100%;
+    }
+    .before-nav h2{
+        margin-top: 7px;
+    }
+    .before-nav a{
+        color: white;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+
+    .computer{
+        visibility: hidden;
+        
+    }
+    .nav-nav{
+        display: flex;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .navbar {
+        background-color: white;
+        padding: 10px;
+        border-radius: 40px;
+        /* margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px; */
+        width: 500px;
+    }
+    
+    .menu-list{
+        visibility: hidden;
+    }
+    .menu {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+    
+    .menu > li {
+        position: relative;
+    }
+    
+    .menu > li > a {
+        display: block;
+        padding: 15px 20px;
+        color: rgb(44, 44, 44);
+        text-decoration: none;
+    }
+    
+    .menu > li > a:hover {
+        background-color: #dadada;
+        border-radius: 30px;
+        transition: background-color 0.4s;
+        text-decoration: underline;
+    }
+    
+    .submenu {
+        display: none;
+        position: absolute;
+        top: 115%;
+        left: 0;
+        background-color: #ffffff;
+        padding: 0;
+        list-style: none;
+        border-radius: 10px ;
+        width: 100%;
+    }
+    
+    .submenu li a {
+        padding: 10px 15px;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        display: block;
+    }
+    
+    .submenu li a:hover {
+        background-color: #dadada;
+    }
+    
+    .menu > li:hover .submenu {
+        display: block;
+    }
+    
+    
+    .menu a img{
+        height: 50px; 
+        margin-right: 300px;
+        margin-left: 10px;
+        margin-bottom: 1px;
+        margin-top: 7px;
+        padding-left: -10px;
+        width: 200px;
+    }
+    
+    .rectangle-button{
+       background-color: #106046 ;
+       background-image: url("trezor-mobile.jpg") ;
+       border: none;
+       border-radius: 50%;
+       max-width: 198px;
+       /* padding: 10px;
+       margin-top: 10px; */
+       color: transparent;
+       font-weight: 700;
+       font-size: 20px;
+       cursor: pointer;
+       content: "jai";
+    }
+    
+    .rectangle-button:hover{
+        background-color: #0f4433;
+        transition: background-color 0.4s;
+    }
+
+    /* block1 */
+    .block {
+        padding: 10px;
+        margin: 10px;
+        text-align: left;
+        height: 570px;
+    }
+    
+    .block h1{
+        font-size: 50px;
+        text-align: left;
+        margin-top: px;
+        margin-left: 0px;
+    }
+    .block h2{
+        font-size: 41px;
+        text-align: left;
+        color: #106046;
+        
+        margin-top: 5px;
+        margin-left: 0px;
+    }
+    .block p{
+        font-size: 30px;
+        text-align: left;
+        color: #555;
+        margin-left: px;
+        margin-top: 20px;
+        max-width: 100%;
+
+    }
+    .block h4{
+        text-align: left;
+        color: #727272;
+        margin-left: 11px;
+        font-weight: 100;
+        word-spacing: 5px;
+    }
+    
+    
+    .button-block {
+        padding: 10px 10px;
+        display: block;
+        margin: 10px;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .button-primary {
+        background-color: #106046;
+        color: white;
+        height:60px ;
+        width: 500px;
+        margin-left: 0px;
+    }
+    .button-primary:hover {
+        background-color: #0f4433;
+    }
+    .button-secondary {
+        background-color: #e6e6e6;
+        color: rgb( 73, 73, 73);
+        width: 500px;
+        height: 60px;
+        margin-top: -60px;
+    }
+    .button-secondary:hover {
+        background-color: #c5c5c5;
+    }
+
+    /* content-banner */
+
+    .content-block {
+        display: block;
+        width: 100%;
+        background-color: white;
+        border-radius:40px;
+        overflow: hidden;
+        margin-left: 0px;
+        padding: 2px 2px;
+        margin-top: 20px;
+    }
+    .text-content {
+        padding: 10px;
+        flex: 1;
+    }
+    .text-content h1 {
+        margin: 0;
+        font-size: 43px;
+        margin-top: 20px;
+    }
+    .text-content h2 {
+        margin: 15px 0;
+        color: #106046;
+        font-size: 27px;
+        font-weight: 100;
+        margin-left: 5px;
+    }
+    .text-content p {
+        line-height: 1.3;
+        font-size: 20px;
+        font-weight: 100;
+        color: #727272;
+    }
+    .text-content1{
+        padding: 20px;
+        flex: 1;
+    }
+    .text-content1 h1 {
+        margin: 0;
+        font-size: 54px;
+    }
+    .text-content1 h2 {
+        margin: 15px 0;
+        font-size: 18px;
+        color: #106046;
+        font-size: 30px;
+        font-weight: 100;
+    }
+    .text-content1 p {
+        line-height: 1.3;
+        font-size: 30px;
+        font-weight: 100;
+        color: #727272;
+    }
+    .banner {
+        /* flex: 0 0 300px;  */
+        background-color: #f0f0f0; /* Placeholder for the banner */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner img {
+        max-width: 300%;
+        height: 330px;
+    }
+    .block3 img{
+        width: 650px;
+    }
+    .block2 img{
+        width: 650px;
+    }
+    
+    .content-content{
+        background-color: #f0f0f0;
+        margin:20px 30px;
+        line-height: 32px;
+    }
+    .content-content h1{
+        font-size: 45px;
+        line-height: 40px;
+    }
+    .content-content h3{
+        font-size: 40px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+    .content-content p{
+        font-size: 20px;
+    }
+
+    /* footer */
+    footer {
+        background-color: #000000;
+        padding: 20px;
+        text-align: center;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        margin-top: 50px;
+        max-width: 100%;
+    }
+    .footer-logo img {
+        max-width: 300px;
+        height: auto;
+        display: block;
+        /* margin-left: auto;
+        margin-right: auto; */
+        width: 50%;
+       margin-bottom: -30px;
+    }
+    .meta-title {
+        font-size: 20px;
+        margin: 10px 0;
+        color: white;
+        /* margin-left: -1000px; */
+        display: flex;
+        margin-left: 50px;
+    }
+
+    </style>
+</head>
+
+<body>
+    <div class="before-nav">
+        <h2>Exciting News: wallet is about to grow. Click <a href="#">here</a> to know!</h2>
+    </div>
+    <div class="nav-nav">
+        <nav class="navbar">
+            <ul class="menu">
+                <a href="#" class="logo"><img src="https://i.ibb.co/KyMPSPc/img1.png" alt="Logo"></a>
+                <li><a href="#">Products</a>
+                    <ul class="submenu">
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">History</a></li>
+                        <li><a href="#">Vision</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">App</a></li>
+                <li><a href="#">Coins</a></li>
+                <li><a href="#">Learn & Support</a>
+                
+                    </ul>
+                </li>
+            </ul>
+
+        </nav>
+        <button class="rectangle-button" onclick="window.location.href='#';">Get your Trezor</button>
+
+    </div>
+    <div class="block">
+        <h1>Congratulations</h1>
+        <h2>on getting your new Trezor</h2>
+        <p>Get started with your Trezor and take full control using our desktop app. Download Trezor Suite today to manage your crypto securely</p>
+        <button class="button-block button-primary">Download for desktop</button>
+        <button class="button-block button-secondary">Trezor Suite for web</button>
+        <h4>Version:v24.9.2 . Signature . Signing key 2020 Signing key 2021</h4>
+    </div>
+
+    
+
+    <!-- Content -->
+    <div class="content-content">
+        <h1>Secure Your Crypto with Trezor: Get Started at Tr&eacute;zor.io/start</h1>
+<p>For anyone invested in cryptocurrency, security is a top priority. <strong>Tr&eacute;zor.io/start</strong> is your gateway to setting up a Trezor hardware wallet, designed to protect your digital assets from online threats. This guide will take you through the setup process, introduce the Trezor Suite, and explain the benefits of using a Trezor hardware wallet.</p>
+<h2>Why Choose Trezor?</h2>
+<p>Trezor is a trusted leader in cryptocurrency hardware wallets, providing a secure way to store, manage, and transact digital currencies. Unlike software wallets, which are always online and vulnerable to cyber attacks, Trezor wallets keep your private keys offline, significantly reducing security risks. Here&rsquo;s why Trezor stands out:</p>
+<ol>
+<li><strong>Unmatched Security</strong>: Trezor hardware wallets store your private keys offline, keeping them safe from hackers and malware.</li>
+<li><strong>User-Friendly Interface</strong>: With Trezor Suite, a desktop and web application available at Tr&eacute;zor.io/start, you can manage your assets with ease.</li>
+<li><strong>Support for Multiple Cryptocurrencies</strong>: Trezor supports a wide range of cryptocurrencies, so you can store all your assets in one secure place.</li>
+<li><strong>Regular Updates</strong>: Trezor is committed to security and reliability, frequently releasing updates to improve its software and stay ahead of threats.</li>
+</ol>
+<h2>Getting Started with Trezor</h2>
+<p>To begin using your Trezor wallet, follow these steps to set it up securely:</p>
+<h3>Step 1: Visit Tr&eacute;zor.io/start</h3>
+<p>Head over to Tr&eacute;zor.io/start for the official setup instructions. This page provides all the necessary resources and downloads to ensure a smooth setup process. Always download Trezor Suite and firmware updates from the official website to protect your wallet from fake software.</p>
+<h3>Step 2: Choose and Purchase Your Trezor Model</h3>
+<p>If you&rsquo;re new to Trezor, choose between the <strong>Trezor Model One</strong> and the <strong>Trezor Model T</strong>. The Trezor Model One offers solid, affordable security, while the Trezor Model T provides enhanced features, including a color touchscreen, expanded crypto support, and more security options. Once you have your device, you&rsquo;re ready to start the setup.</p>
+<h3>Step 3: Download and Install Trezor Suite</h3>
+<p>Trezor Suite is the application that connects you to your Trezor device, enabling secure crypto transactions, balance checks, and portfolio management. Download Trezor Suite from Tr&eacute;zor.io/start and install it on your computer. Trezor Suite is compatible with Windows, macOS, and Linux, offering a secure environment for crypto management.</p>
+<h3>Step 4: Connect Your Device and Set Up Your Wallet</h3>
+<p>Plug in your Trezor device using a USB cable and open the Trezor Suite application. You&rsquo;ll be prompted to initialize your device by creating a new wallet or restoring an existing one if you have a recovery seed. Follow the on-screen instructions to complete the setup.</p>
+<h3>Step 5: Create a Recovery Seed</h3>
+<p>During the setup, you&rsquo;ll be given a <strong>recovery seed</strong>&mdash;a unique series of words that acts as a backup for your wallet. Write down this seed on paper and store it in a secure place, separate from your Trezor device. This seed is your only way to recover your funds if your Trezor is lost, stolen, or damaged. <strong>Never share your recovery seed with anyone</strong>.</p>
+<h2>Exploring Trezor Suite Features</h2>
+<p>Once you&rsquo;ve set up your wallet, Trezor Suite becomes your central hub for managing crypto assets. Here are some key features:</p>
+<ul>
+<li><strong>Balance Monitoring</strong>: Check your cryptocurrency balances at a glance, including value trends and history.</li>
+<li><strong>Secure Transactions</strong>: Trezor Suite allows you to send and receive funds securely, requiring device confirmation for every transaction.</li>
+<li><strong>Portfolio Management</strong>: Manage multiple cryptocurrencies within one account, monitor price changes, and adjust your portfolio as needed.</li>
+<li><strong>Advanced Security Settings</strong>: Use advanced features like PIN protection, passphrase security, and two-factor authentication for enhanced safety.</li>
+</ul>
+<h2>Keeping Your Trezor Secure</h2>
+<p>To maximize security, keep your Trezor firmware and Trezor Suite software updated. Regular updates include security patches and new features, ensuring your wallet is protected against the latest threats. When handling sensitive data, such as your recovery seed, avoid sharing it digitally or storing it on your computer.</p>
+<h2>Conclusion</h2>
+<p>Starting with Trezor at <strong>Tr&eacute;zor.io/start</strong> is a step toward securing your cryptocurrency portfolio. By using a Trezor hardware wallet, you gain peace of mind knowing that your digital assets are protected by one of the most trusted security solutions in the industry. With a simple setup process, easy-to-use Trezor Suite application, and extensive security features, Trezor is an ideal choice for both new and experienced crypto users. Secure your assets today and explore the freedom of safe crypto management with Trezor!</p>
+        </ol>
+    </div>
+
+    <!-- <div class="last-banner">
+
+        <button>Compare Wallets</button>
